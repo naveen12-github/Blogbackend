@@ -12,7 +12,7 @@ app.use(cors())
 app.use(bodyParser.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb://127.0.0.1:27017/').then(()=>{
+mongoose.connect('mongodb+srv://naveenak:4321@cluster0.j6ctb.mongodb.net/passkey?retryWrites=true&w=majority&appName=Cluster0').then(()=>{
     console.log("Connection Successfull")
 })
 
